@@ -52,7 +52,8 @@
     background: white;
     color: #333;
     padding: 20px;
-    margin: 20px 0;
+    
+    margin: 20px 20px 0 0;
     outline: none;
     border-radius: 5px;
 
@@ -64,4 +65,9 @@
     right: 15px;
     bottom: 15px;
     cursor: pointer;
+}
+
+.notes-container{
+    display: flex;
+    flex-wrap: wrap;
 }
